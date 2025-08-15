@@ -1,0 +1,12 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+
+catalogs:
+  react:
+    react: ^19.1.0
+    react-dom: ^19.1.0
+  tool:
+    vite: ^7.0.0
+    eslint: ^9.0.0
+    typescript: ^5.9.0
