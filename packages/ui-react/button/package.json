@@ -4,7 +4,6 @@
   "type": "module",
   "private": true,
   "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -15,7 +14,7 @@
     "dist/**"
   ],
   "scripts": {
-    "build": "tsup",
+    "build": "tsdown",
     "lint": "eslint .",
     "clean": "git clean -xdf dist node_modules .turbo"
   },
@@ -33,7 +32,7 @@
     "@types/react": "^19.1.0",
     "eslint": "catalog:tool",
     "react": "catalog:react",
-    "tsup": "catalog:tool",
+    "tsdown": "catalog:tool",
     "typescript": "catalog:tool"
   }
 }
