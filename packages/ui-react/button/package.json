@@ -1,0 +1,39 @@
+{
+  "name": "@repo/ui-react-button",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "lint": "eslint .",
+    "clean": "git clean -xdf dist node_modules .turbo"
+  },
+  "peerDependencies": {
+    "react": ">=19.0.0"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "catalog:radix",
+    "@repo/ui-theme": "workspace:*",
+    "class-variance-authority": "^0.7.1"
+  },
+  "devDependencies": {
+    "@repo/config-eslint": "workspace:*",
+    "@repo/config-typescript": "workspace:*",
+    "@types/react": "^19.1.0",
+    "eslint": "catalog:tool",
+    "react": "catalog:react",
+    "tsup": "catalog:tool",
+    "typescript": "catalog:tool"
+  }
+}
