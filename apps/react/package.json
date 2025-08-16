@@ -11,6 +11,8 @@
     "clean": "git clean -xdf dist node_modules .turbo"
   },
   "dependencies": {
+    "@repo/ui-theme": "workspace:*",
+    "@repo/ui-react-button": "workspace:*",
     "react": "catalog:react",
     "react-dom": "catalog:react"
   },

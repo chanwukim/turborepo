@@ -1,0 +1,23 @@
+{
+  "name": "@repo/ui-theme",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    "./styles.css": "./src/styles.css",
+    "./utils": "./src/utils.ts",
+    "./postcss.config": "./postcss.config.mjs"
+  },
+  "scripts": {
+    "clean": "git clean -xdf dist node_modules .turbo"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.3.1",
+    "tw-animate-css": "^1.3.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
+    "tailwindcss": "^4.1.12"
+  }
+}
