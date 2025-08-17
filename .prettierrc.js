@@ -10,7 +10,7 @@ const config = {
   tabWidth: 2,
   trailingComma: "all",
   endOfLine: "lf",
-  printWidth: 100,
+  printWidth: 80,
   bracketSpacing: true,
   bracketSameLine: false,
   plugins: ["@ianvs/prettier-plugin-sort-imports", "prettier-plugin-tailwindcss"],
