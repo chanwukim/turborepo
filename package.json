@@ -12,7 +12,7 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint --continue -- --fix",
-    "format": "prettier . --write",
+    "format": "turbo run format --continue -- --write",
     "clean": "turbo run clean && git clean -xdf node_modules .turbo"
   },
   "devDependencies": {

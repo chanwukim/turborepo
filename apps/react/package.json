@@ -8,6 +8,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint .",
+    "format": "prettier .",
     "clean": "git clean -xdf dist node_modules .turbo"
   },
   "dependencies": {

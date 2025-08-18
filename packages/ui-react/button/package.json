@@ -16,6 +16,7 @@
   "scripts": {
     "build": "tsdown",
     "lint": "eslint .",
+    "format": "prettier .",
     "clean": "git clean -xdf dist node_modules .turbo"
   },
   "peerDependencies": {
